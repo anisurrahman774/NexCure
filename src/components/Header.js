@@ -24,7 +24,7 @@ const Header = () => {
     };
     document.addEventListener('mousedown', handleClick);
     return () => document.removeEventListener('mousedown', handleClick);
-  }, [showNotifications]);
+  }, [showNotifications, markAllRead]);
 
   const navigation = [
     { name: 'Home', href: '/' },

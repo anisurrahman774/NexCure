@@ -1,19 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import { useNotification } from '../context/NotificationContext';
-import { useUser } from '../context/UserContext';
+// import { useNotification } from '../context/NotificationContext';
+// import { useUser } from '../context/UserContext';
 import TaskInput from './TaskInput';
 
 
 const TrackingSystem = () => {
   const [activeTab, setActiveTab] = useState('projects');
-  const [projects, setProjects] = useState([]);
+  const [projects] = useState([]);
   const [tasks, setTasks] = useState([]);
   const [showTaskInput, setShowTaskInput] = useState(false);
   const [editingTask, setEditingTask] = useState(null);
   const [isAdmin, setIsAdmin] = useState(true); // true = admin, false = view
   // Notification system (use context)
-  const { addNotification } = useNotification();
-  const { user } = useUser();
+  // Removed unused addNotification and user variables to fix eslint errors
 
   // useEffect will be updated for backend integration
   useEffect(() => {
