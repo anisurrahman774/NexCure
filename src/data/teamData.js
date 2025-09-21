@@ -94,7 +94,7 @@ export const teamMembers = [
   },
   {
     id: 7,
-    name: "Shahariyar Hossain",
+    name: "Shahariar Hossain",
     designation: " Deep Learning, Machine Learning",
     researchField: "Drug Discovery & Molecular AI",
     image: "/IMG/shahariyar.jpg",
@@ -107,64 +107,56 @@ export const teamMembers = [
   department: "Department of Drug Discovery",
   university: "Yale University",
   },
-  {
-    id: 8,
-    name: "MD. humayon kabir",
-    designation: "Research Scientist",
-    researchField: "Agricultural AI & Precision Farming",
-    image: "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    social: {
-      linkedin: "https://linkedin.com/in/davidkim",
-      twitter: "https://twitter.com/davidkim",
-      googleScholar: "https://scholar.google.com/davidkim"
-    },
-  bio: "Pioneering AI applications in precision agriculture and sustainable farming practices.",
-  department: "Department of Precision Farming",
-  university: "Cornell University",
-  },
-  {
-    id: 9,
-    name: "Dr. Jennifer Lee",
-    designation: "Research Scientist",
-    researchField: "Neuroscience & Brain Imaging AI",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-    social: {
-      linkedin: "https://linkedin.com/in/jenniferlee",
-      twitter: "https://twitter.com/jenniferlee",
-      googleScholar: "https://scholar.google.com/jenniferlee"
-    },
-  bio: "Specializes in AI analysis of brain imaging data and neurological disorder detection.",
-  department: "Department of Neuroscience",
-  university: "Johns Hopkins University",
-  },
-  {
-    id: 10,
-    name: "Dr. Robert Zhang",
-    designation: "Research Scientist",
-    researchField: "Robotics & Surgical AI",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    social: {
-      linkedin: "https://linkedin.com/in/robertzhang",
-      twitter: "https://twitter.com/robertzhang",
-      googleScholar: "https://scholar.google.com/robertzhang"
-    },
-  bio: "Developing AI-powered robotic systems for minimally invasive surgical procedures.",
-  department: "Department of Robotics",
-  university: "MIT",
-  },
-  {
-    id: 11,
-    name: "Dr. Anis",
-    designation: "Senior Research Scientist",
-    researchField: "Machine Learning & Data Science",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
-    social: {
-      linkedin: "https://linkedin.com/in/anis",
-      twitter: "https://twitter.com/anis",
-      googleScholar: "https://scholar.google.com/anis"
-    },
-  bio: "Expert in machine learning algorithms and data science applications for healthcare and medical research.",
-  department: "Department of Data Science",
-  university: "Imperial College London",
-  }
+
+  //
+  // {
+  // {
+  //   id: 11,
+  //   name: "Dr. Anis",
+  //   designation: "Senior Research Scientist",
+  //   researchField: "Machine Learning & Data Science",
+  //   image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+  //   social: {
+  //     linkedin: "https://linkedin.com/in/anis",
+  //     twitter: "https://twitter.com/anis",
+  //     googleScholar: "https://scholar.google.com/anis"
+  //   },
+  // bio: "Expert in machine learning algorithms and data science applications for healthcare and medical research.",
+  // department: "Department of Data Science",
+  // university: "Imperial College London",
+  // }
+  // department: "Department of Neuroscience",
+  // university: "Johns Hopkins University",
+  // },
+  // {
+  //   id: 10,
+  //   name: "Dr. Robert Zhang",
+  //   designation: "Research Scientist",
+  //   researchField: "Robotics & Surgical AI",
+  //   image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+  //   social: {
+  //     linkedin: "https://linkedin.com/in/robertzhang",
+  //     twitter: "https://twitter.com/robertzhang",
+  //     googleScholar: "https://scholar.google.com/robertzhang"
+  //   },
+  // bio: "Developing AI-powered robotic systems for minimally invasive surgical procedures.",
+  // department: "Department of Robotics",
+  // university: "MIT",
+  // },
+  // {
+  //   id: 11,
+  //   name: "Dr. Anis",
+  //   designation: "Senior Research Scientist",
+  //   researchField: "Machine Learning & Data Science",
+  //   image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80",
+  //   social: {
+  //     linkedin: "https://linkedin.com/in/anis",
+  //     twitter: "https://twitter.com/anis",
+  //     googleScholar: "https://scholar.google.com/anis"
+  //   },
+  // bio: "Expert in machine learning algorithms and data science applications for healthcare and medical research.",
+  // department: "Department of Data Science",
+  // university: "Imperial College London",
+  // }
+  
 ];
