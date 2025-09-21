@@ -97,7 +97,7 @@ export const teamMembers = [
     name: "Shahariar Hossain",
     designation: " Deep Learning, Machine Learning",
     researchField: "Drug Discovery & Molecular AI",
-    image: "/IMG/shahariyar.jpg",
+    image: "/IMG/shahariar.jpg",
     social: {
       linkedin: "https://linkedin.com/in/mariagarcia",
       twitter: "https://twitter.com/mariagarcia",
